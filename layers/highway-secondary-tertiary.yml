@@ -13,8 +13,8 @@ filter:
     - secondary
     - tertiary
 layout:
-  line-cap: round
-  line-join: round
+  line-cap: square
+  line-join: bevel
   visibility: visible
 paint:
   line-color: rgba(255, 255, 255, 1)
@@ -27,9 +27,7 @@ paint:
   line-width:
     base: 1.2
     stops:
-      - - 6.5
-        - 0
-      - - 8
-        - 0.5
-      - - 20
-        - 13
+      - - 14
+        - 10
+      - - 18
+        - 20
