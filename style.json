@@ -136,11 +136,11 @@
         [
           ">=",
           "render_height",
-          10
+          4
         ]
       ],
       "paint": {
-        "fill-color": "#ff0000",
+        "fill-color": "#00388F",
         "fill-antialias": true
       }
     }
