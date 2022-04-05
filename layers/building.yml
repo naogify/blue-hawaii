@@ -6,8 +6,8 @@ minzoom: 14
 filter:
   - all
   - - '>='
-    - render_height
-    - 4
+    - ['get', 'building_area']
+    - 1000
 paint:
   fill-color: '#00388F'
   fill-antialias: true
